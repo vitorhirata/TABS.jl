@@ -1,11 +1,9 @@
 module TABS
 
-export greet
-"""
-   greet()
+using Random
+using Distributions
 
-Returns a print saying Hellow World!
-"""
-greet() = print("Hello World!")
+rng = MersenneTwister(123)
 
+include("entities/entities.jl")
 end
