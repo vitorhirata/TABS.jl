@@ -3,7 +3,7 @@
     lattice_size::Int = 49 # Size of the grid
     number_initial_variety::Int = 10 # Initial number of varieties in the community
     number_initial_variety_HD::Int = 5 # Initial number of varieties per household
-    number_resource::Int = 3 # Number of existing resources
+    number_resource::Int = 3 # Number of existing resources. TODO: this cannot be changed now.
     number_habitat::Int = 1 # Ambient heterogeneity
     number_household::Int = 49 # Number of households
 
